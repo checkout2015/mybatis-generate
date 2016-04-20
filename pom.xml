@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.xiaoniu.generate</groupId>
+  <artifactId>generate</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  
+  
+   <dependencies>
+   <dependency>
+		<groupId>com.xiaoniu.platform.base</groupId>
+		<artifactId>platform-base-api</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+	<dependency>
+ 		<groupId>com.xiaoniu.platform.base</groupId>
+		<artifactId>platform-base-common</artifactId>
+		<version>${project.version}</version>
+    </dependency>
+    <dependency>
+ 		<groupId>com.xiaoniu.platform.base</groupId>
+		<artifactId>platform-base-service</artifactId>
+		<version>${project.version}</version>
+    </dependency>
+    
+   	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>2.0.1</version>
+	</dependency>
+    <dependency>
+		<groupId>uk.com.robust-it</groupId>
+		<artifactId>cloning</artifactId>
+		<version>1.9.2</version>
+	</dependency>
+    <dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>fastjson</artifactId>
+		<version>1.1.36</version>
+	</dependency>
+	<dependency>
+		<groupId>org.freemarker</groupId>
+		<artifactId>freemarker</artifactId>
+		<version>2.3.22</version>
+	</dependency>
+
+    <dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>5.1.35</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc5</artifactId>
+		<version>5.0</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.7.12</version>
+	</dependency>
+		
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-tx</artifactId>
+		<version>3.2.2.RELEASE</version>
+	</dependency>	
+	
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+		<version>3.2.2.RELEASE</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+		<version>3.2.2.RELEASE</version>
+	</dependency>
+	
+	<dependency>
+		 <groupId>com.xiaoniu.platform.base</groupId>
+    	 <artifactId>platform-base-paginator</artifactId>
+    	 <version>1.0.0-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+</project>
