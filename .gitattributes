@@ -1,2 +1,2 @@
+*.ftl linguist-language=FreeMarker
 *.java linguist-language=Java
-*.ftl linguist-language=Freemarker
